@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cadastre Aqui</title>
+        <link rel="icon" href="./img/logo-removebg-preview.png">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/cadastro-residuos.css">
+    </head>
+    <body>
+        <img src="./img/logo-removebg-preview.png" width="250" alt="Logo Projeto FavelAção">
+        
+        <form action="">
+            <fieldset>
+              <legend>Onde estão os resíduos?</legend>   
+            <div class="input-block">
+              <label for="endereco">Endereço</label>
+              <input id="endereco" name="endereco">
+            </div>
+            
+            <div class="input-block">
+              <label for="pontoRef">Ponto de Referência </label>
+              <input id="pontoRef" name="pontoRef"></input>          
+            </div>  
+            
+    
+            </fieldset>
+            <fieldset>
+                
+                <h3>Quantidade de resíduos?</h3>
+                <br>
+                <label for="pouco">
+                    <input type="radio" name="pouco"> Pouco <br>
+                </label>
+                <label for="">
+                     <input type="radio" name="medio"> Médio<br>
+                </label>
+               <label for="">
+                   <input type="radio" name="muito"> Muito
+                 </label>
+                
+                <br><br>    
+                <h3>Há presença de insetos no local?</h3><br>
+                 <label for="">
+                     <input type="radio" name="sim" value="S"> Sim <br>
+                </label>
+                <label for="">
+                    <input type="radio" name="nao" value="N"> Não <br> 
+                </label>
+                
+                <br><br> 
+                <h3>Se sim, quais?</h3> <br>
+                <label> 
+                    <input type="checkbox" name="moscas"> Moscas<br>
+                </label>
+               <label for=""> 
+                    <input type="checkbox" name="baratas"> Baratas<br>
+                </label>
+              <label for="">
+                   <input type="checkbox" name="ratos"> Ratos <br>
+                </label>
+               <label for=""> 
+                   <input type="checkbox" name="larvas"> Larvas <br>
+                </label>
+               
+                <br><br>  
+                <div class="input-block">
+                    <label for="informacao">Gostaria de acrescentar informações adicionais: </label>
+                    <textarea id="informacao" name="informacao"></textarea>  
+
+      
+      
+              </fieldset>
+
+              <button type="submit"> Confirmar</button>        
+           </div>
+        </form>
+     
+        <a href="locais.html" title="Voltar para página de Locais de Resíduos.">
+            <img src="./img/arroleft.svg" alt="Ir para o mapa" />
+          </a>
+      
+             
+    </body>
+</html>
